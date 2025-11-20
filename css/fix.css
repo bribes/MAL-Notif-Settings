@@ -1,6 +1,6 @@
 [style*="display:table; pointer-events: all;"] {
     margin: var(--alignment) !important;
     max-width: 30% !important;
-    padding: 10px 20px 10px 20px !important;
+    padding: var(--size) !important;
     font-size: 10px;
 }

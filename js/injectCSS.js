@@ -8,3 +8,8 @@ chrome.storage.local.get("position", function (res) {
         document.documentElement.style.setProperty('--alignment', '0 0 0 auto');
     }
 });
+
+chrome.storage.local.get("size", function (res) {
+    let size = parseInt(res.size) || 1;
+    document.documentElement.style.setProperty('--size', size + 'px ' + size*2 + 'px');
+});
