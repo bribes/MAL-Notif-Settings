@@ -4,13 +4,16 @@
   "author": "Faav",
   "icons": {},
   "manifest_version": 3,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "action": {
     "default_title": "MAL Notif Settings",
     "default_popup": "popup.html"
   },
   "content_scripts": [
     {
+      "css": [
+        "css/fix.css"
+      ],
       "js": [
         "js/injectCSS.js"
       ],
